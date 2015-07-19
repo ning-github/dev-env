@@ -1,0 +1,87 @@
+config defaultToCurrentScreen true
+config nudgePercentOf screenSize
+config resizePercentOf screenSize
+config windowHintsShowIcons true
+config windowHintsIgnoreHiddenWindows false
+config windowHintsSpread true
+
+# Aliases
+alias lefthalf push left bar-resize:screenSizeX/2
+alias righthalf push right bar-resize:screenSizeX/2
+alias tophalf push up bar-resize:screenSizeY/2
+alias bottomhalf push down bar-resize:screenSizeY/2
+alias fullscreen push up bar-resize:screenSizeY 
+
+#---------------
+alias     first-quadrant            move         screenOriginX+screenSizeX/2;screenOriginY                     screenSizeX/2;screenSizeY/2
+alias     second-quadrant           move         screenOriginX;screenOriginY                                   screenSizeX/2;screenSizeY/2
+alias     third-quadrant            move         screenOriginX;screenOriginY+screenSizeY/2                     screenSizeX/2;screenSizeY/2
+alias     fourth-quadrant           move         screenOriginX+screenSizeX/2;screenOriginY+screenSizeY/2       screenSizeX/2;screenSizeY/2
+
+
+# Resize Bindings need the alt for Sublime
+#bind right:alt       resize +5% +0
+#bind left:alt        resize -5% +0
+#bind up:alt          resize +0   -5%
+#bind down:alt        resize +0   +5%
+#bind right:ctrl;alt  resize -5% +0 bottom-right
+#bind left:ctrl;alt   resize +5% +0 bottom-right
+#bind up:ctrl;alt     resize +0   +5% bottom-right
+#bind down:ctrl;alt   resize +0   -5% bottom-right
+
+# Push Bindings
+  #comment out for now, since hyperdock can do this
+bind end:ctrl  push right bar-resize:screenSizeX/2
+bind home:ctrl   push left  bar-resize:screenSizeX/2
+bind pageUp:ctrl     push up    bar-resize:screenSizeY
+bind pageDown:ctrl ${bottomhalf}
+#----------------
+
+# Nudge Bindings
+#bind right:shift;alt nudge +5% +0
+#bind left:shift;alt  nudge -5% +0
+#bind up:shift;alt    nudge +0   -5%
+#bind down:shift;alt  nudge +0   +5%
+
+# Throw Bindings
+  # moves desktops
+bind 1:ctrl;alt         throw 0 resize
+bind 2:ctrl;alt         throw 1 resize
+
+#the below are not seeing much use
+  #bind 3:ctrl;alt         throw 2 resize
+  #bind right:ctrl;alt;cmd throw right resize
+  #bind left:ctrl;alt;cmd  throw left  resize
+  #bind up:ctrl;alt;cmd    throw up    resize
+  #bind down:ctrl;alt;cmd  throw down  resize
+
+# Focus Bindings
+bind right:ctrl focus right
+bind left:ctrl focus left
+bind up:ctrl focus up
+bind down:ctrl focus down
+bind pageUp:ctrl   focus behind
+bind pageDown:ctrl focus behind
+
+# Window Hints
+bind esc:cmd hint
+
+# Layouts Defined
+layout googleHalf "Google Chrome" ${lefthalf}
+layout googleHalf "Sublime Text 2" ${righthalf}
+
+layout subHalf "Sublime Text 2" ${lefthalf}
+layout subHalf "Google Chrome" ${righthalf}
+
+layout googleThirds "Google Chrome" push left bar-resize:screenSizeX/3
+layout googleThirds "Sublime Text 2" push right bar-resize:2*screenSizeX/3
+
+layout subThirds "Sublime Text 2" push left bar-resize:screenSizeX/3
+layout subThirds "Google Chrome" push right bar-resize:2*screenSizeX/3
+
+# Layouts Bindings
+bind 1:alt layout googleHalf
+bind 2:alt layout subHalf
+bind 3:alt layout googleThirds
+bind 4:alt layout subThirds
+
