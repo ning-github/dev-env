@@ -9,3 +9,5 @@
     - see .zshrc for config
 ##6. Disable DS_Store creation and Remove existing DS_Store files
 ##7. Sublime
+    - include license key
+    - download package control
