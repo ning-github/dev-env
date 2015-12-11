@@ -11,3 +11,7 @@
 ##7. Sublime
     - include license key
     - download package control
+        1. HTML-CSS-Prettify
+        2. Sidebar Enhancement
+        3. BracketHighlighter
+        4. Focus File on Sidebar
