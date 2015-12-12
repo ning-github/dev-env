@@ -15,3 +15,4 @@
         2. Sidebar Enhancement
         3. BracketHighlighter
         4. Focus File on Sidebar
+##8. Homebrew
