@@ -4,7 +4,7 @@
 ##2. Map Caps Lock to Control
     - System Preferences > Keyboard > Modifier Keys
 ##3. iterm 2
-##4. Slate
+##4. Homebrew
 ##5. Oh-My-Zsh
     - see .zshrc for config
 ##6. Disable DS_Store creation and Remove existing DS_Store files
@@ -15,4 +15,4 @@
         2. Sidebar Enhancement
         3. BracketHighlighter
         4. Focus File on Sidebar
-##8. Homebrew
+##8. Slate
