@@ -16,3 +16,4 @@
         3. BracketHighlighter
         4. Focus File on Sidebar
 ##8. Slate
+##9. XCode
