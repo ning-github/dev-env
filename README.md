@@ -1,8 +1,7 @@
 # dev-env
 
 ##1. Alfred
-##2. Map Caps Lock to Control
-    - System Preferences > Keyboard > Modifier Keys
+##2. XCode
 ##3. iterm 2
 ##4. Homebrew
 ##5. Oh-My-Zsh
@@ -16,6 +15,7 @@
         3. BracketHighlighter
         4. Focus File on Sidebar
 ##8. Slate
-##9. XCode
+##9. Map Caps Lock to Control
+    - System Preferences > Keyboard > Modifier Keys
 ##10. SourceTree
 ##11. Node
