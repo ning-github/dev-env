@@ -1,7 +1,7 @@
 # dev-env
 
 ##1. Alfred
-##2. XCode
+##2. Xcode
 ##3. iterm 2
 ##4. Homebrew
 ##5. Oh-My-Zsh
