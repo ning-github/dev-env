@@ -19,3 +19,4 @@
     - System Preferences > Keyboard > Modifier Keys
 ##10. SourceTree
 ##11. Node
+    - download n first, then use n to download node
