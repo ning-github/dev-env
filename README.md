@@ -20,5 +20,6 @@
 ##10. SourceTree
 ##11. Node
     - download n first, then use n to download node
+##12. f.lux
 
 **look into webstorm
