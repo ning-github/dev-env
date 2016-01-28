@@ -22,5 +22,6 @@
     - download n first, then use n to download node
 ##12. f.lux
 ##13. Atom
+    - React JSX
 
 **look into webstorm
