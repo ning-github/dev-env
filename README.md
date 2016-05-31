@@ -10,10 +10,15 @@
 ##7. Sublime
     - include license key
     - download package control
-        1. HTML-CSS-Prettify
-        2. Sidebar Enhancement
+        1. HTML-CSS-JS-Prettify
+        2. SidebarEnhancements
         3. BracketHighlighter
         4. Focus File on Sidebar
+        5. Babel
+        6. Git
+        7. Package Control (https://packagecontrol.io/installation)
+        8. VIM Navigation (https://github.com/demisx/sublime-vim-navigation)
+        9. One Dark Color Scheme
 ##8. Slate
 ##9. Map Caps Lock to Control
     - System Preferences > Keyboard > Modifier Keys
