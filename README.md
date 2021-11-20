@@ -29,4 +29,15 @@
 ##13. Atom
     - React JSX
 
-**look into webstorm
+# Intellij
+## Command line launcher
+
+You can create a shell script with this command in a directory from your PATH environment variable. For example, create the file /usr/local/bin/idea with the following contents:
+
+```
+#!/bin/sh
+
+open -na "IntelliJ IDEA CE.app" --args "$@"
+```
+
+chmod 7777 /usr/local/bin/ij
