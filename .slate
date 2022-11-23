@@ -53,7 +53,7 @@ bind k:shift;cmd;ctrl ${tophalf}
   # moves desktops
 bind 1:ctrl;alt         throw 0 resize
 bind 2:ctrl;alt         throw 1 resize
-bind 3:ctrl;alt		throw 2 resize
+bind 3:ctrl;alt     throw 2 resize
 
 #the below are not seeing much use
   #bind 3:ctrl;alt         throw 2 resize
